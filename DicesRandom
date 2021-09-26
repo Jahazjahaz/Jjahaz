@@ -1,0 +1,30 @@
+import random
+print("keka")
+def dices():
+	a = random.randint(0,5)
+	a = a+1
+	b = random.randint(0,5)
+	b = b+1
+	print(a, b)
+
+	if a or b == 7: #The 'if' statement is always runs the equal digit with no random. So I decided just ignore it.😎
+		pass
+		
+	elif a or b == 3: #The 'or' statement is so sugar here 😊
+		print([3])
+	elif a or b == 1:
+		print([1])
+	elif a or b == 2:
+		print([2])
+	elif a or b == 4:
+		print([4])
+	elif a or b == 5:
+		print([5])
+	elif a or b == 6:
+		print([6])
+	else:
+		pass
+	print(f'{[a]}')
+	print(f'{[b]}')
+dices()
+		
